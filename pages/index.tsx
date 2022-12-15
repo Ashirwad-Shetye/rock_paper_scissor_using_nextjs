@@ -118,7 +118,7 @@ export default function Home() {
             <div
               className={
                 restart
-                  ? "flex blur-sm flex-col justify-center items-center space-y-10"
+                  ? "flex blur-sm flex-col justify-center items-center space-y-10 pointer-events-none cursor-default"
                   : "flex flex-col justify-center items-center space-y-10"
               }
             >
